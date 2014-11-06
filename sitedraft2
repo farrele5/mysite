@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Elizabeth Farrell</title>
+    
+<!--Bootstrap-->
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<!--my style sheet-->
+<link rel="stylesheet" href="main.css">
+
+<script src='js/prefixfree.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script src='js/jquery.scrollme.js'></script>
+</head>
+
+<body>
+	<section id="scrollme" class="section section_intro scrollme">
+
+<div class="wrapper">          
+    <div class="row">
+        <header class="col-md-12 name">
+        </header>
+    </div> 
+			<h1 class="fittext animateme top"
+				data-when="exit"
+				data-from="0"
+				data-to="0.75"
+				data-opacity="0"
+				data-translatey="-250">
+				Elizabeth Farrell </h1>
+    
+			<h3 class="animateme"
+				data-when="exit"
+				data-from="0"
+				data-to="0.75"
+				data-opacity="0"
+				data-translatey="-150">
+			</h3>
+
+		</div><!-- wrapper -->
+
+	</section>
+
+	<header class="header">
+		<div class="wrapper">
+			<nav class="nav navbar-fixed-top nav_onpage">
+                <ul class="plain clearfix">
+					<li class="nav_item_text"><a href="#about">About</a></li>
+					<li class="nav_item_text"><a href="#exp">Leadership</a></li>
+					<li class="nav_item_text"><a href="#skills">Skills</a></li>
+                    <li class="nav_item_text"><a href="#work">Work Experience</a></li>
+                     <li class="nav_item_text"><a href="#contact">Contact Me</a></li>
+                    <li class="page-scroll"><a href="portfolio.html" title="portfolio">Portfolio</a></li>
+                     <li class="page-scroll"><a href="http://www.tcnj.edu/~farrele5/Elizabeth_Farrell_resume" title="resume">Resume</a></li>
+				</ul>
+			</nav>
+		</div><!-- wrapper -->
+    </header>
+
+	<section class="section me">
+		<div class="wrapper">
+			<h2 id="about">About</h2>
+            <div class="columns columns_content">
+            <p class="blurb">I am an Undergraduate Student at The College of New Jersey. I am pursuing a degree in Communication Studies with a focus in Radio, TV, and Film along with a Minor in Interactive Multimedia. My passions in life have brought me into the world of theater, lighting design,film, web design, radio, television, and promotions.</p> 
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+			<h2 id="exp">Leadership</h2>
+				<div class="row images">
+                <nav>
+                    <ul>
+                    <div class="col-md-3 radio"><li><img src="http://www.tcnj.edu/~farrele5/imgs/radio.png" alt="radio"><p>Radio</p><p>WCTC/WMGQ</p><p>Greater Media NJ</p><p>Intern • 3 months</p></li></div>
+      
+                    <div class="col-md-3 theatre"><li><img src="http://www.tcnj.edu/~farrele5/imgs/theatre.png" alt="mask"><p>Theater</p><p>TCNJ Musical Theatre</p><p>Lighting Design • 2 years</p></li></div> 
+      
+                    <div class="col-md-3"><li><img src="http://www.tcnj.edu/~farrele5/imgs/camera1.png" alt="film"><p>Film</p></li></div>
+      
+                    <div class="col-md-3"><li><img src="http://www.tcnj.edu/~farrele5/imgs/tv.png" alt="tv"><p>Television</p><p>Lion's Television</p><p>Member • 1 year</p></li></div>
+                    </ul> 
+                </nav> 
+            </div>
+	</section>
+    
+	<section class="section">
+		<div class="wrapper">
+            <div class="col-md-12 skills">
+			     <h2 id="skills">Skills</h2>
+                    <p>Avid Media Composer 6</p>
+                    <p>Microsoft Office</p>
+                    <p>ETC Element Console</p>
+                    <p>Photography</p>
+                    <p>Social Media</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+            </div>
+            
+            <div class="col-md-12 work">
+                <h2 id="work">Work Experience</h2>
+                    <p>Barnes and Noble College</p>
+                    <p>HMS Host</p>
+                    <p>Macy's</p>   
+            </div>
+        </div>
+	</section>
+    
+<div class="row">
+  <footer class="col-md-12"> 
+      <p id="footer"></p>
+      <div class="contact">
+	       <div class="row">
+		      <section class="col-md-12">
+			     <h2 id="contact">Contact Me</h2>
+		      </section>
+	       </div>
+          
+	<div class="row">
+		<article class="col-md-12">
+			<p class="message"></p>
+			<form action="http://www.tcnj.edu/~farrele5/jsonpform2email.php">
+				<div class="form-group">
+					<label>From</label>
+					<input class="form-control" type="text" name="from"  placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label>Subject</label>
+					<input class="form-control" type="text" name="subject"  placeholder="Enter Subject">
+				</div>
+				<div class="form-group">
+					<label>Message</label>
+					<textarea class="form-control" name="message"></textarea>
+				</div>
+				<input type="submit" class="btn btn-default" name="submit" value="Submit Feedback">
+			</form>
+		</article>
+	</div>
+          
+
+	<footer class="footer scrollme">
+		<div class="footer_block animateme"
+			data-when="enter"
+			data-from="1"
+			data-to="0"
+			data-rotatex="90">
+
+		</div>
+    </div>
+</div>
+         
+    <div class="col-md-6 print">    
+<a href="http://www.tcnj.edu/~farrele5/Elizabeth_Farrell_resume" title="resume"> Click here for a printable copy of my resume</a>          
+</div>
+    <div class="col-md-6">
+    <a href="portfolio.html" title="portfolio"> Click here for my Portfolio</a>  
+    </div>
+
+	</footer>
+    <script src="https://code.jquery.com/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+<script>
+/* jsonp form to email function */
+/* jsonp form to email function */
+$('form').submit(function() {
+  var url = $(this).attr("action");
+  var params = $(this).serialize();
+  
+  $.getJSON(url + '?' + params + "&callback=?", function(data) {
+	switch(data[0].status){
+		case 'success':
+			$('.message').addClass("text-success").html('Thank you, <strong>' + data[0].from + '</strong>, for sending us feedback!');
+			$('form')[0].reset();
+			break;
+		case 'invalid email':
+			$('.message').removeClass("text-success").addClass("text-danger").html('Please provide a valid email address!');
+			break;
+		case 'failed to send':
+			$('.message').removeClass("text-success").addClass("text-danger").html('Failed to send email.');
+			break;
+	}
+  });
+  return false;
+});
+</script>
+    
+
+	<script>
+		(function( $ ){
+
+			$.fn.fitText = function( kompressor, options ) {
+
+				// Setup options
+				var compressor = kompressor || 1,
+				settings = $.extend({
+					'minFontSize' : Number.NEGATIVE_INFINITY,
+					'maxFontSize' : Number.POSITIVE_INFINITY
+					}, options);
+
+				return this.each(function(){
+
+					// Store the object
+					var $this = $(this);
+
+					// Resizer() resizes items based on the object width divided by the compressor * 10
+					var resizer = function () {
+						$this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
+					};
+
+					// Call once to set.
+					setTimeout( function(){ resizer(); } , 250 );
+
+					// Call on resize. Opera debounces their resize by default.
+					$(window).on('resize.fittext orientationchange.fittext', resizer);
+
+				});
+
+			};
+
+		})( jQuery );
+
+		// --------------------------------------------------
+		// FitText init + animate to hash
+
+		$( document ).ready( function()
+		{
+			// Set FitText for main heading
+
+			$( '.fittext' ).fitText( 0.45 );
+
+			// Scroll to hash animation
+
+			$( function()
+			{
+				$( 'a[href*=#]:not([href=#])' ).click( function()
+				{
+					if( location.pathname.replace( /^\// , '' ) == this.pathname.replace( /^\// , '' ) && location.hostname == this.hostname )
+					{
+						var target = $( this.hash );
+						target = target.length ? target : $( '[name='+this.hash.slice( 1 )+']' );
+						if( target.length )
+						{
+							$( 'html,body' ).stop().animate(
+							{
+								scrollTop:target.offset().top - 120
+							} , 1000 );
+							return false;
+						}
+					}
+				});
+			});
+
+		});
+
+		// --------------------------------------------------
+
+	</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
