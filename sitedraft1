@@ -29,16 +29,14 @@
         <header class="col-md-12 name">
         </header>
     </div> 
-			<h1
-				class="fittext animateme top"
+			<h1 class="fittext animateme top"
 				data-when="exit"
 				data-from="0"
 				data-to="0.75"
 				data-opacity="0"
-				data-translatey="-250"
-			>
-				Elizabeth Farrell
-			</h1>
+				data-translatey="-250">
+				Elizabeth Farrell </h1>
+    
 			<h3 class="animateme"
 				data-when="exit"
 				data-from="0"
@@ -54,16 +52,18 @@
 	<header class="header">
 		<div class="wrapper">
 			<nav class="nav nav_onpage">
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<ul class="plain clearfix">
 					<li class="nav_item_text"><a href="#about">About</a></li>
 					<li class="nav_item_text"><a href="#exp">Leadership</a></li>
 					<li class="nav_item_text"><a href="#skills">Skills</a></li>
                     <li class="nav_item_text"><a href="#work">Work Experience</a></li>
                      <li class="nav_item_text"><a href="#contact">Contact Me</a></li>
-                    <li class="page-scroll"><a href="portfolio.html" title="portfolio">Portfolio</a></li>
-                     <li class="page-scroll"><a href="http://www.tcnj.edu/~farrele5/Elizabeth_Farrell_resume" title="portfolio">Resume</a></li>
+                    <li class="page-scroll"><a href="portfolio.html" title="portfolio" target="_blank">Portfolio</a></li>
+                     <li class="page-scroll"><a href="http://www.tcnj.edu/~farrele5/Elizabeth_Farrell_resume" title="resume" target="_blank">Resume</a></li>
 				</ul>
 			</nav>
+            </nav>
 		</div><!-- wrapper -->
     </header>
 
@@ -76,10 +76,8 @@
 		</div>
 	</section>
 
-	<hr>
-
 	<section class="section">
-			<h2 id="exp">Leadership</h2>
+			<h2 id="exp" class="experience">Leadership</h2>
 				<div class="row images">
                 <nav>
                     <ul>
@@ -87,27 +85,26 @@
       
                     <div class="col-md-3 theatre"><li><img src="http://www.tcnj.edu/~farrele5/imgs/theatre.png" alt="mask"><p>Theater</p><p>TCNJ Musical Theatre</p><p>Lighting Design • 2 years</p></li></div> 
       
-                    <div class="col-md-3"><li><img src="http://www.tcnj.edu/~farrele5/imgs/camera1.png" alt="film"><p>Film</p><p></p></li></div>
+                    <div class="col-md-3"><li><img src="http://www.tcnj.edu/~farrele5/imgs/camera1.png" alt="film"><p>Film</p></li></div>
       
                     <div class="col-md-3"><li><img src="http://www.tcnj.edu/~farrele5/imgs/tv.png" alt="tv"><p>Television</p><p>Lion's Television</p><p>Member • 1 year</p></li></div>
                     </ul> 
                 </nav> 
             </div>
 	</section>
-
-	<hr>
     
 	<section class="section">
 		<div class="wrapper">
             <div class="col-md-12 skills">
 			     <h2 id="skills">Skills</h2>
                     <p>Avid Media Composer 6</p>
-                    <p>Microsoft Office</p>
-                    <p>ETC Element Console</p>
                     <p>Photography</p>
-                    <p>Social Media</p>
+                    <p>ETC Element Console</p>
                     <p>HTML</p>
                     <p>CSS</p>
+                    <p>Javascript</p>
+                    <p>Social Media</p>
+                    <p>Microsoft Office</p>
             </div>
             
             <div class="col-md-12 work">
@@ -119,22 +116,19 @@
         </div>
 	</section>
     
-<div class="row">
-  <footer class="col-md-12"> 
-      <p id="footer"></p>
-      <div class="contact">
-	       <div class="row">
-		      <section class="col-md-12">
-			     <h2 id="contact">Contact Me</h2>
-		      </section>
-	       </div>
-	
+<div class="contact">
+  <div class="row">
+    <section class="col-md-12">
+      <h2 id="contact">Contact Me</h2>
+    </section>
+  </div>     
 	<div class="row">
 		<article class="col-md-12">
-			<form action="mailto:farrele5@tcnj.edu" method="post" enctype="text/plain">
+			<p class="message"></p>
+			<form action="http://www.tcnj.edu/~farrele5/jsonpform2email.php">
 				<div class="form-group">
 					<label>From</label>
-					<input class="form-control" type="text" name="from"  placeholder="Enter your email">
+					<input class="form-control" type="text" name="from"  placeholder="Enter email">
 				</div>
 				<div class="form-group">
 					<label>Subject</label>
@@ -144,29 +138,56 @@
 					<label>Message</label>
 					<textarea class="form-control" name="message"></textarea>
 				</div>
-				<input type="submit" class="btn btn-default" name="submit" value="Submit">
+				<input type="submit" class="btn btn-default" name="submit" value="Submit Feedback">
 			</form>
 		</article>
 	</div>
-          
-
-	<footer class="footer scrollme">
+</div>
+  
+<footer class="footer scrollme">
 		<div class="footer_block animateme"
 			data-when="enter"
 			data-from="1"
 			data-to="0"
-			data-rotatex="90">
-
+			data-rotatex="0">
 		</div>
-         
-    <div class="col-md-6 print">    
-<a href="http://www.tcnj.edu/~farrele5/Elizabeth_Farrell_resume" title="resume"> Click here for a printable copy of my resume</a>          
-</div>
-    <div class="col-md-6">
-    <a href="http://www.tcnj.edu/~farrele5/Elizabeth_Farrell_resume" title="resume"> Click here for my Portfolio</a>  
-    </div>
 
-	</footer>
+          <div class="col-md-4 print"><li><a href="http://www.tcnj.edu/~farrele5/Elizabeth_Farrell_resume" title="resume" target="_blank"><img src="http://www.tcnj.edu/~farrele5/imgs/resumeicon1.png" alt="resume" ><h4>Printable Resume</h4></a></li></div>                     
+
+<div class="col-md-4 port"><li><a href="portfolio.html" title="resume" target="_blank"><img src="http://www.tcnj.edu/~farrele5/imgs/camera_65.png" alt="camera"><h4>My Portfolio</h4></a></li></div>
+    
+<div class="col-md-4 linked"><li><a href="https://www.linkedin.com/profile/view?id=377317768&trk=nav_responsive_tab_profile" title="linkedin" target="_blank"><img src="http://www.tcnj.edu/~farrele5/imgs/linkedin.png" alt="linkedin"><h4>Linkedin</h4></a></li></div> 
+</footer>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+<script>
+/* jsonp form to email function */
+/* jsonp form to email function */
+$('form').submit(function() {
+  var url = $(this).attr("action");
+  var params = $(this).serialize();
+  
+  $.getJSON(url + '?' + params + "&callback=?", function(data) {
+	switch(data[0].status){
+		case 'success':
+			$('.message').addClass("text-success").html('Thank you, <strong>' + data[0].from + '</strong>, for sending us feedback!');
+			$('form')[0].reset();
+			break;
+		case 'invalid email':
+			$('.message').removeClass("text-success").addClass("text-danger").html('Please provide a valid email address!');
+			break;
+		case 'failed to send':
+			$('.message').removeClass("text-success").addClass("text-danger").html('Failed to send email.');
+			break;
+	}
+  });
+  return false;
+});
+</script>
+    
 
 	<script>
 		(function( $ ){
@@ -202,9 +223,6 @@
 
 		})( jQuery );
 
-		// --------------------------------------------------
-		// FitText init + animate to hash
-
 		$( document ).ready( function()
 		{
 			// Set FitText for main heading
@@ -234,9 +252,7 @@
 			});
 
 		});
-
-		// --------------------------------------------------
-
+        
 	</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
