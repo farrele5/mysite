@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Farrell</title>
+    
+<!--Bootstrap-->
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	
+    
+<!--my style sheet-->
+<link rel="stylesheet" href="main.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<script src='js/prefixfree.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script src='js/jquery.scrollme.js'></script>
+    
+</style>   
+</head>
+
+
+<body>
+ <div class="row">
+    <div class="col-md-1 beg"><h3>Beginner</h3></div>
+    <div class="col-md-1 int"><h3>Intermediate</h3></div>
+    <div class="col-md-1 pro"><h3>Proficient</h3></div>
+    <div class="col-md-1 mas"><h3>Expert/Master</h3></div> 
+ </div>
+ 
+    <div class="row">
+    <div class="col-md-2 st">Avid Media Composer 6</div>
+</div>
+<div class="row">
+    <div class="col-md-2 st">Photography</div>
+</div>
+<div class="row">
+    <div class="col-md-2 st">ETC Element Console</div>
+</div>
+<div class="row">
+    <div class="col-md-2 st">HTML</div>
+</div>
+<div class="row">  
+    <div class="col-md-2 st">CSS</div>
+</div>
+<div class="row">
+    <div class="col-md-2 st">Javascript</div>
+</div>
+<div class="row">
+    <div class="col-md-2 st">Social Media</div>
+</div>
+<div class="row">
+    <div class="col-md-2 st">Microsoft Office</div>
+ </div>
+</section>
+
+</body>
+</html>
